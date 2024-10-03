@@ -1,0 +1,11 @@
+[versions]
+kotlin = "2.0.10"
+quarkus = "3.15.1"
+
+[libraries]
+quarkus-bom = { module = "io.quarkus.platform:quarkus-bom", version.ref = "quarkus" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-allopen = { id = "org.jetbrains.kotlin.plugin.allopen", version.ref = "kotlin" }
+quarkus = { id = "io.quarkus", version.ref = "quarkus" }
