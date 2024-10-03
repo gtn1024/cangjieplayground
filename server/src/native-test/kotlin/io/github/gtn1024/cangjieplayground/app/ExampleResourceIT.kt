@@ -1,4 +1,4 @@
-package io.github.gtn1024.cangjieplayground
+package io.github.gtn1024.cangjieplayground.app
 
 import io.quarkus.test.junit.QuarkusIntegrationTest
 

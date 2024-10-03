@@ -1,4 +1,4 @@
-package io.github.gtn1024.cangjieplayground
+package io.github.gtn1024.cangjieplayground.app
 
 import jakarta.ws.rs.GET
 import jakarta.ws.rs.Path
@@ -7,7 +7,6 @@ import jakarta.ws.rs.core.MediaType
 
 @Path("/hello")
 class ExampleResource {
-
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     fun hello() = "Hello from Quarkus REST"

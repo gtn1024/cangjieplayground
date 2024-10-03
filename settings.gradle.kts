@@ -7,4 +7,6 @@ pluginManagement {
 }
 rootProject.name = "cangjieplayground"
 
+include(":shared")
 include(":server")
+include(":agent")

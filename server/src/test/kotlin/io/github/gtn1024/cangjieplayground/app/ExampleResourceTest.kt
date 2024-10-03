@@ -1,4 +1,4 @@
-package io.github.gtn1024.cangjieplayground
+package io.github.gtn1024.cangjieplayground.app
 
 import io.quarkus.test.junit.QuarkusTest
 import io.restassured.RestAssured.given
@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test
 
 @QuarkusTest
 class ExampleResourceTest {
-
     @Test
     fun testHelloEndpoint() {
         given()
@@ -16,5 +15,4 @@ class ExampleResourceTest {
             .statusCode(200)
             .body(`is`("Hello from Quarkus REST"))
     }
-
 }
